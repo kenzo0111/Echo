@@ -104,6 +104,12 @@ public class LAMBDA {
         }
     }
 
+    private static void displaySplashText() {
+        String splashText = "Welcome to University Management Profiling System!";
+        int padding = (80 - splashText.length()) / 2;
+        System.out.println("\n" + repeatChar('=', padding) + splashText + repeatChar('=', padding));
+    }
+
     private static void SHOW_MENU() {
         System.out.println("\n" + repeatChar('=', 60));
         System.out.println("No     | Option");
