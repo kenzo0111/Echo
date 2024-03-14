@@ -17,6 +17,7 @@ public class LAMBDA {
         SHOW_SPL();
         PROMPT_LOGIN();
         LAMBDA_CAPTCHA();
+        displaySplashText();
         while (true) {
             SHOW_MENU();
             String choice = GET_CHOICE();
